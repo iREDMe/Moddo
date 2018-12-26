@@ -11,6 +11,7 @@ exports.run = (client, message, args, prefix) => {
 		+ `${prefix}embed color: #ff00ff | title: I am the POOTIS MAN | timestamp: 420\n`
 		+ `${prefix}embed color: 0x455555 | author: Nope | authoricon: https://no.u/ | timestamp: current\n`
 		+ `${prefix}embed field1: FieldTitle, FieldContents, isInline? | field3: Sandvich, Make Me STRONG, yes | blankField2: inline? | blankField4 | blankField5: ok | color: #ff00ff`);
+		embed.setFooter('Bot created by iRED#9987');
 		return message.channel.send(embed);
 	}
 	const info = client.util.objectify(message);
